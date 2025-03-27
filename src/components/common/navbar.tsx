@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import Container from "./container";
 import Logo from "./logo";
 import { motion } from "motion/react";
+import { MenuIcon } from "lucide-react";
 
 interface NavItem {
   label: string;
@@ -31,8 +32,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+          <Button variant="ghost" size="icon" className="ml-auto lg:hidden smooth-button">
+            <MenuIcon className="size-5 text-black" />
+          </Button>
           <Button className="ml-auto hidden lg:block smooth-button">
-            Book a Demo
+            Join Us
           </Button>
         </motion.div>
       </Container>

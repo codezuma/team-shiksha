@@ -10,12 +10,28 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['var(--font-geist-sans)'],
+				sans: ['var(--font-inter)'],
+				display: ['var(--font-source-serif-4)'],
 				mono: ['var(--font-geist-mono)'],
+			},
+			fontSize: {
+				xs: ['0.75rem', { lineHeight: '1.25rem' }],
 			},
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				gradient: {
+					purple: 'var(--purple-scenery-gradient)',
+					green: 'var(--green-scenery-gradient)',
+					blue: 'var(--blue-scenery-gradient)',
+					red: 'var(--red-scenery-gradient)',
+				},
+				color:{
+					purple: 'var(--purple)',
+					red: 'var(--red)',
+					green: 'var(--green)',
+					blue: 'var(--blue)',
+				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'

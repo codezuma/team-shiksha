@@ -7,7 +7,6 @@ body {
 }
 
 
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -35,6 +34,24 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.7rem;
+
+    --blue-scenery-gradient: conic-gradient(from -200deg at 50% 50%, #53f3e0, #cbfbf6, #53f3e0);
+    --blue-scenery-2-gradient: conic-gradient(from -200deg at 50% 50%, rgba(83, 243, 224, .8), #cbfbf6, rgba(83, 243, 224, .8));
+    --blue-illustration-1-gradient: conic-gradient(from -140deg at 100% 100%, #24efd7, #b3faf1 120deg, #24efd7);
+    --blue-illustration-2-gradient: conic-gradient(from -140deg at 100% 100%, #0fd1bb, #6bf5e4 120deg, #0fd1bb);
+    --blue: #0fd1bb;
+    --red-scenery-gradient: conic-gradient(from -200deg at 50% 50%, #e53636, #f7bcbc, #e53636);
+    --red-scenery-2-gradient: conic-gradient(from -200deg at 50% 50%, rgba(229, 54, 54, .75), #f7bcbc, rgba(229, 54, 54, .75));
+    --red-illustration-1-gradient: conic-gradient(from -140deg at 100% 100%, #ef2424, #fab3b3 120deg, #ef2424);
+    --red-illustration-2-gradient: conic-gradient(from -140deg at 100% 100%, #d10f0f, #f56b6b 120deg, #d10f0f);
+    --red: #e53636;
+    --purple-scenery-gradient: conic-gradient(from -200deg at 50% 50%,#8a4fff,#c7b3ff,#8a4fff);
+    --purple: #5319c7;
+    --green-scenery-gradient: conic-gradient(from -200deg at 50% 50%, #53f395, #cbfbdf, #53f395);
+    --green-scenery-2-gradient: conic-gradient(from -200deg at 50% 50%, rgba(83, 243, 149, .8), #cbfbdf, rgba(83, 243, 149, .8));
+    --green-illustration-1-gradient: conic-gradient(from -140deg at 100% 100%, #24ef57, #b3fac4 120deg, #24ef57);
+    --green-illustration-2-gradient: conic-gradient(from -140deg at 100% 100%, #0fd140, #6bf58e 120deg, #0fd140);
+    --green: #0fd140;
   }
 
   .dark {
